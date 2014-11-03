@@ -1,0 +1,13 @@
+* clojure-simfile
+
+A Clojure library designed to parse the SM file format used in Stepmania.
+
+Currently does not support parsing the actual step charts. 
+
+* Usage
+
+#+BEGIN_SRC clojure
+(require '[clojure-simfile.parser :as sm])
+
+(sm/parse-sm "Ellie Goulding - Burn (174).sm")
+#+END_SRC
