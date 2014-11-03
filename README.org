@@ -11,3 +11,32 @@ Currently does not support parsing the actual step charts.
 
 (sm/parse-sm "Ellie Goulding - Burn (174).sm")
 #+END_SRC
+
+#+BEGIN_SRC clojure
+{:SELECTABLE "YES",
+ :NOTES (
+  {:RadarValues "0.627,0.623,0.585,0.016,0.008",
+   :DifficultyMeter "8",
+   :DifficultyClass "hard",
+   :Description "",
+   :NotesType "dance-single"}
+   ...),
+ :SUBTITLE "",
+ :BANNER "Bn.bmp",
+ :ARTISTTRANSLIT "",
+ :ARTIST "Ellie Goulding",
+ :BACKGROUND "BG.bmp",
+ :BGCHANGES "",
+ :SAMPLELENGTH "12.000",
+ :LYRICSPATH "",
+ :BPMS "0.000=174.000,256.000=87.000,266.000=174.000",
+ :MUSIC "Ellie Goulding - Burn (174).mp3",
+ :SAMPLESTART "94.030",
+ :OFFSET "-0.040",
+ :SUBTITLETRANSLIT "",
+ :CREDIT "",
+ :CDTITLE "Cdtitle.png",
+ :TITLE "Burn",
+ :TITLETRANSLIT "",
+ :STOPS ""}
+#+END_SRC
